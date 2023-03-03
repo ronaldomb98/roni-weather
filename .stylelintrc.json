@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "indentation": 4,
+    "scss/dollar-variable-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "selector-class-pattern": [
+      "^[a-z][a-zA-Z0-9]+$",
+      {
+        "message": "Should use camel case"
+      }
+    ],
+    "color-hex-case": "upper",
+    "color-function-notation": "legacy",
+    "selector-pseudo-class-no-unknown": null
+  }
+}

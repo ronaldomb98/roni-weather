@@ -1,0 +1,23 @@
+.geocodingForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__form {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+
+    &__address {
+        min-width: 280px;
+    }
+
+    &__label,
+    &__control {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
