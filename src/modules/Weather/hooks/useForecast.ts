@@ -1,4 +1,4 @@
-import { ForecastProperties, ForecastResponse, PointsResponse } from '@modules/Weather/entities';
+import { ForecastResponse, PointsResponse } from '@modules/Weather/entities';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 

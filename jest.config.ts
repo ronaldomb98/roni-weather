@@ -26,6 +26,12 @@ const config: Config.InitialOptions = {
     'json',
     'svg'
   ],
+  testPathIgnorePatterns : [
+    "<rootDir>/src/index.tsx" 
+  ],
+  coveragePathIgnorePatterns: [
+    "<rootDir>/src/index.tsx" 
+  ],
   moduleDirectories: [
     './node_modules'
   ],
